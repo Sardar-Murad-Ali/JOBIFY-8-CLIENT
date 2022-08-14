@@ -1,0 +1,37 @@
+.landing{
+    padding: 2rem 10%;
+}
+.landing span{
+    color: lightblue;
+}
+.flex-content{
+    margin-top: 13%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.landing .image img{
+    width: 100%;
+margin-left: 6%;
+}
+
+.landing .image{
+    width: 400px;
+}
+
+@media screen and (max-width: 738px) {
+  
+           
+  .image{
+      display: none;
+  }
+
+  }
+@media screen and (max-width: 500px) {
+  
+           
+  .content h1{
+    font-size: 32px;
+  }
+
+  }

@@ -1,0 +1,47 @@
+.register{
+    display: flex;
+justify-content: center;
+align-items: center;
+/* height: 80vh; */
+margin-top: 60px;
+}
+.register-main{
+    line-height: 12px;
+background: white;
+width: 400px;
+border-radius: 6px;
+padding: 10px;
+border-top: 5px solid red;
+}
+
+.register-main input{
+    width: 90%;
+    width: 90%;
+padding: 4px;
+background: lightgray;
+border-radius: 3px;
+}
+
+.register-main h2{
+    text-align: center;
+}
+
+.register-main .logo{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+
+.register-main span{
+    text-decoration: underline;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.register-main .same{
+    line-height: 1px;
+    margin-bottom: 30px;
+}
+
